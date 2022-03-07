@@ -13,8 +13,7 @@ Get this API from [Here](https://pokeapi.co/)
 ## Demo
 
 Demo of this React App: 
-
-(Click Here) [https://nayeemsweb.github.io/pokemon-codex/]
+[Click Here](https://nayeemsweb.github.io/pokemon-codex/)
 
 
 ## Installation
