@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import PokemonThumbnail from "./components/PokemonThumbnail";
+import {Button, Container, Row} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
@@ -44,7 +46,7 @@ function App() {
             />
           )}
         </div>
-        <button className="load-more" onClick = {() => getAllPokemons()}>Load More</button>
+        <Button variant="danger mt-4 col-md-6" size="lg" className="" onClick = {() => getAllPokemons()}>Load More</Button>
       </div>
     </div>
   );
